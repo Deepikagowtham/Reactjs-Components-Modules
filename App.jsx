@@ -1,17 +1,13 @@
 import React from 'react';
-import Header from './Header.jsx';
-import MainContent from './MainContent.jsx';
-import Footer from './Footer.jsx';
-import './styles.css';
+import { Header, Footer } from './HeaderFooter';
+import MainContent from './MainContent';
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <MainContent />
-      <Footer />
-    </div>
-  );
-}
+const App = () => (
+  <div>
+    <Header />
+    <MainContent />
+    <Footer />
+  </div>
+);
 
 export default App;
